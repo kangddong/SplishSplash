@@ -10,17 +10,56 @@
 		B5078B882E42444B004034E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5078B842E42444B004034E9 /* Assets.xcassets */; };
 		B5078B892E42444B004034E9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5078B852E42444B004034E9 /* ContentView.swift */; };
 		B5078B8A2E42444B004034E9 /* SplishSplashApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5078B862E42444B004034E9 /* SplishSplashApp.swift */; };
+		B5078BE42E4248B2004034E9 /* SplishSplashWatchApp Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = B5078BDA2E4248B1004034E9 /* SplishSplashWatchApp Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		B5078BED2E4248FA004034E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5078BE92E4248FA004034E9 /* Assets.xcassets */; };
+		B5078BEE2E4248FA004034E9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5078BEA2E4248FA004034E9 /* ContentView.swift */; };
+		B5078BEF2E4248FA004034E9 /* SplishSplashWatchAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5078BEB2E4248FA004034E9 /* SplishSplashWatchAppApp.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B5078BE22E4248B2004034E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B5078B6E2E424446004034E9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B5078BD92E4248B1004034E9;
+			remoteInfo = "SplishSplashWatchApp Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B5078BE82E4248B2004034E9 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				B5078BE42E4248B2004034E9 /* SplishSplashWatchApp Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		B5078B762E424446004034E9 /* SplishSplash.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SplishSplash.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5078B842E42444B004034E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B5078B852E42444B004034E9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B5078B862E42444B004034E9 /* SplishSplashApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplishSplashApp.swift; sourceTree = "<group>"; };
+		B5078BDA2E4248B1004034E9 /* SplishSplashWatchApp Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SplishSplashWatchApp Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5078BE92E4248FA004034E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B5078BEA2E4248FA004034E9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B5078BEB2E4248FA004034E9 /* SplishSplashWatchAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplishSplashWatchAppApp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		B5078B732E424446004034E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5078BD72E4248B1004034E9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -34,6 +73,7 @@
 			isa = PBXGroup;
 			children = (
 				B5078B872E42444B004034E9 /* SplishSplash */,
+				B5078BEC2E4248FA004034E9 /* SplishSplashWatchApp Watch App */,
 				B5078B772E424446004034E9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -42,6 +82,7 @@
 			isa = PBXGroup;
 			children = (
 				B5078B762E424446004034E9 /* SplishSplash.app */,
+				B5078BDA2E4248B1004034E9 /* SplishSplashWatchApp Watch App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,6 +97,16 @@
 			path = SplishSplash;
 			sourceTree = "<group>";
 		};
+		B5078BEC2E4248FA004034E9 /* SplishSplashWatchApp Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				B5078BE92E4248FA004034E9 /* Assets.xcassets */,
+				B5078BEA2E4248FA004034E9 /* ContentView.swift */,
+				B5078BEB2E4248FA004034E9 /* SplishSplashWatchAppApp.swift */,
+			);
+			path = "SplishSplashWatchApp Watch App";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -66,16 +117,37 @@
 				B5078B722E424446004034E9 /* Sources */,
 				B5078B732E424446004034E9 /* Frameworks */,
 				B5078B742E424446004034E9 /* Resources */,
+				B5078BE82E4248B2004034E9 /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				B5078BE32E4248B2004034E9 /* PBXTargetDependency */,
 			);
 			name = SplishSplash;
 			packageProductDependencies = (
 			);
 			productName = SplishSplash;
 			productReference = B5078B762E424446004034E9 /* SplishSplash.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B5078BD92E4248B1004034E9 /* SplishSplashWatchApp Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5078BE52E4248B2004034E9 /* Build configuration list for PBXNativeTarget "SplishSplashWatchApp Watch App" */;
+			buildPhases = (
+				B5078BD62E4248B1004034E9 /* Sources */,
+				B5078BD72E4248B1004034E9 /* Frameworks */,
+				B5078BD82E4248B1004034E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SplishSplashWatchApp Watch App";
+			packageProductDependencies = (
+			);
+			productName = "SplishSplashWatchApp Watch App";
+			productReference = B5078BDA2E4248B1004034E9 /* SplishSplashWatchApp Watch App.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -89,6 +161,9 @@
 				LastUpgradeCheck = 1640;
 				TargetAttributes = {
 					B5078B752E424446004034E9 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					B5078BD92E4248B1004034E9 = {
 						CreatedOnToolsVersion = 16.4;
 					};
 				};
@@ -108,6 +183,7 @@
 			projectRoot = "";
 			targets = (
 				B5078B752E424446004034E9 /* SplishSplash */,
+				B5078BD92E4248B1004034E9 /* SplishSplashWatchApp Watch App */,
 			);
 		};
 /* End PBXProject section */
@@ -118,6 +194,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				B5078B882E42444B004034E9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5078BD82E4248B1004034E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5078BED2E4248FA004034E9 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -133,7 +217,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B5078BD62E4248B1004034E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5078BEE2E4248FA004034E9 /* ContentView.swift in Sources */,
+				B5078BEF2E4248FA004034E9 /* SplishSplashWatchAppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B5078BE32E4248B2004034E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B5078BD92E4248B1004034E9 /* SplishSplashWatchApp Watch App */;
+			targetProxy = B5078BE22E4248B2004034E9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		B5078B7F2E424447004034E9 /* Debug */ = {
@@ -323,6 +424,64 @@
 			};
 			name = Release;
 		};
+		B5078BE62E4248B2004034E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FL4QTRRKMD;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = SplishSplashWatchApp;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.arex.SplishSplash;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.arex.SplishSplash.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.6;
+			};
+			name = Debug;
+		};
+		B5078BE72E4248B2004034E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FL4QTRRKMD;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = SplishSplashWatchApp;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.arex.SplishSplash;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.arex.SplishSplash.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.6;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -340,6 +499,15 @@
 			buildConfigurations = (
 				B5078B822E424447004034E9 /* Debug */,
 				B5078B832E424447004034E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5078BE52E4248B2004034E9 /* Build configuration list for PBXNativeTarget "SplishSplashWatchApp Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5078BE62E4248B2004034E9 /* Debug */,
+				B5078BE72E4248B2004034E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
