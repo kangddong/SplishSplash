@@ -6,17 +6,18 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		B5078B882E42444B004034E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5078B842E42444B004034E9 /* Assets.xcassets */; };
+		B5078B892E42444B004034E9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5078B852E42444B004034E9 /* ContentView.swift */; };
+		B5078B8A2E42444B004034E9 /* SplishSplashApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5078B862E42444B004034E9 /* SplishSplashApp.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		B5078B762E424446004034E9 /* SplishSplash.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SplishSplash.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5078B842E42444B004034E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B5078B852E42444B004034E9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B5078B862E42444B004034E9 /* SplishSplashApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplishSplashApp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		B5078B782E424446004034E9 /* SplishSplash */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = SplishSplash;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		B5078B732E424446004034E9 /* Frameworks */ = {
@@ -32,7 +33,7 @@
 		B5078B6D2E424446004034E9 = {
 			isa = PBXGroup;
 			children = (
-				B5078B782E424446004034E9 /* SplishSplash */,
+				B5078B872E42444B004034E9 /* SplishSplash */,
 				B5078B772E424446004034E9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +44,16 @@
 				B5078B762E424446004034E9 /* SplishSplash.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		B5078B872E42444B004034E9 /* SplishSplash */ = {
+			isa = PBXGroup;
+			children = (
+				B5078B842E42444B004034E9 /* Assets.xcassets */,
+				B5078B852E42444B004034E9 /* ContentView.swift */,
+				B5078B862E42444B004034E9 /* SplishSplashApp.swift */,
+			);
+			path = SplishSplash;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,9 +70,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				B5078B782E424446004034E9 /* SplishSplash */,
 			);
 			name = SplishSplash;
 			packageProductDependencies = (
@@ -109,6 +117,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5078B882E42444B004034E9 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +128,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5078B892E42444B004034E9 /* ContentView.swift in Sources */,
+				B5078B8A2E42444B004034E9 /* SplishSplashApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
